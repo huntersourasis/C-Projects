@@ -17,6 +17,8 @@ int main() {
         num1 =  num2 % num1;
         num2 = temp;
     }
+    if(st_num1 != 0 && st_num2!=0) {
     printf("The HCF of %d and %d is : %d" , st_num1 , st_num2 , num1 );
+    }
     return 0;
 }
