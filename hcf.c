@@ -8,8 +8,8 @@ int main() {
     printf("\nNum2 : ");
     scanf("%d" , &num2);
     int st_num1 = num1  , st_num2 = num2 ;
-    num1 = num1 != 0 ? abs(num1) : printf("\nNum1 Should be an non-zero Number.");
-    num2 = num2 != 0 ?  abs(num2) : printf("\nNum2 Should be an non-zero Number.") ;
+    num1 = num1 != 0 ? abs(num1) : printf("\nNum1 Should be a non-zero Number.");
+    num2 = num2 != 0 ?  abs(num2) : printf("\nNum2 Should be a non-zero Number.") ;
     int temp;
     while (num2 % num1 > 0)
     {
